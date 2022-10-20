@@ -6,7 +6,11 @@
 
 2. How do we change the value of a variable?
 
+// - let a = "value here"
+
 3. How do we assign an existing variable to a new variable?
+
+// - let a = b
 
 4. Remind me, what are declare, assign, and define?
 
@@ -133,6 +137,10 @@ What are the things in an array called?
 Do Arrays guarantee those things will be in order?
 What real-life thing could you model with an array?
 
+// - elements
+// - yes, non-alphabetical
+// - anything with a list of information (car lot, employee list, resturant menu, etc)
+
 ### B. Easy Does It
 
 Create an array that contains three quotes and store it in a variable called quotes
@@ -143,17 +151,32 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
 
+// - randomThings[0];
+
 - Change the value of `"Hello"` to `"World"`
 
+// - randomThings[2] = "World";
+
 - Check the value of the array to make sure it updated the array using `console.log()`
+
+// - console.log(randomThings);
 
 ### D. Change values
 
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
 What would you write to access the 3rd element of the array?
+
+// - ourClass[2];
+
 Change the value of "Github" to "Octocat"
+
+// - ourClass[4] = "Octocat";
+
 Add a new element, "Cloud City" to the array
+
+// - ourClass.push("Cloud City")
+// - ourClass.unshift("Cloud City")
 
 ### E. Mix It Up
 
