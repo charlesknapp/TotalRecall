@@ -1,4 +1,5 @@
-// STRINGS 
+///////////////////////////////////////////////////////////////// STRINGS 
+
 let firstVariable = 'Hello World';
 let secondVariable = undefined;
 let yourName = 'Charles';
@@ -10,7 +11,8 @@ secondVariable = 'Hello Hello World';
 let output = `Hello, my name is ${yourName}`;
 console.log(output);
 
-//BOOLEANS
+///////////////////////////////////////////////////////////////// BOOLEANS
+
 const a = 4;
 const b = 53;
 const c = 57;
@@ -21,7 +23,7 @@ console.log(a < b); //true
 console.log(c > d); //true
 console.log('Name' === 'Name'); //true
 
-//
+///////////////////////////////////////////////////////////////// the Farm
 
 console.log(true || false); //true
 console.log(false && false && false && false && false || true); //true
@@ -40,15 +42,33 @@ else if (animal === "Cow") {
     console.log("Moooooooooooooooo!")
 }
 
+/////////////////////////////////////////////////////////////// Driver's Ed
+
+let currentAge;
+
+currentAge = prompt("What is your current age?")
+if (currentAge >= 16) {
+    console.log("Here are the keys!")
+}
+else if (current < 16) {
+    console.log("Sorry, you're too young.")
+}
+else if (currentAge > 100) {
+    console.log("You're too old to drive! Go home!")
+}
 
 
-//the Farm
+///////////////////////////////////////////////////////////////// LOOPS
 
-//Driver's Ed
-
-
-
-//LOOPS
+for(let i1 = 0; i1 < 10; i1++) {
+    console.log(i1);
+};
+for(let i2 = 10; i2 <= 400; i2++) {
+    console.log(i2);
+};
+for(let i3 = 12; i3 <= 4000; i3 += 3) {
+    console.log(i3);
+};
 
 //The Basics
 

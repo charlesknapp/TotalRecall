@@ -78,7 +78,7 @@ Write code that will print out "Here are the keys!", if the age is 16 years or o
 
 ## Loops
 
-Remember: USE letwhen you initialize your for loops!
+Remember: USE length you initialize your for loops!
 
 This is GOOD: `for(let i = 0; i < 100; i++)`
 
