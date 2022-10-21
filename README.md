@@ -302,7 +302,7 @@ Write a function calculateCubethat takes a single number and prints the volume o
 
 ## D. isVowel
 
-1. Write a function `isVowelthat' takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise.
+1. Write a function `isVowelthat' takes a character (i.e. a string of length 1) and returns `true`if it is a vowel,`false` otherwise.
 
 2. The vowel could be upper or lower case.
 
@@ -336,7 +336,7 @@ Did you use Google and find Math.max()? If so, great job! Very resourceful—kee
 
 ### H. printLongestWord
 
-Write a function printLongestWordthat accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 => "Peanutbutter"

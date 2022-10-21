@@ -57,7 +57,6 @@
 //     console.log("You're too old to drive! Go home!")
 // }
 
-
 ///////////////////////////////////////////////////////////////// LOOPS
 
 // for(let i1 = 0; i1 < 10; i1++) {
@@ -70,7 +69,8 @@
 //     console.log(i3);
 // };
 
-// B
+//// B
+
 // for (let i4 = 1; i4 <= 100; i4++) {
 //     if (i4 % 2 == 0) {
 //         console.log(`${i4} <-- is an even number`)
@@ -79,7 +79,9 @@
 //         console.log(i4)
 //     }
 // }
-// // C
+
+//// C
+
 // for (let i5 = 0; i5 <= 100; i5++) {
 //     if (i5 > 0 && !(i5 % 5)) {
 //         console.log(`I found a ${i5}. High five!`)
@@ -89,7 +91,7 @@
 //     }
 // }
 
-// D
+//// D
 
 // let totalBalance = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let bank_account = 0;
@@ -100,7 +102,7 @@
 
 // console.log(bank_account)
 
-// OR
+//// OR
 
 // let bank_account_2 = 0;
 // for(i = 0; i <= 10; i++) {
@@ -118,9 +120,9 @@
 
 /////////////////////////////////////////////////////////// ARRAYS & CONTROL FLOW
 
-quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You vs. you`]
+// quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You vs. you`]
 
-// E
+//// E
 
 // const myArray = [5, 10, 500, 20]
 // myArray.push('Aegon', 'Testing')
@@ -132,7 +134,7 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 
 // console.log(myArray)
 
-// F
+//// F
 
 // let biggSmall = prompt("Enter any number within 1-500")
 // if ( biggSmall <= 100 ) {
@@ -142,7 +144,7 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 //     console.log("big number")
 // }
 
-// G
+//// G
 
 // let monkeyValue = prompt("Enter any number within 1-100")
 
@@ -156,7 +158,7 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 //     console.log("monkey")
 // }
 
-// H
+//// H
 
 // const kristynsCloset = [
 //     "left shoe",
@@ -173,47 +175,53 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 //   kristynsCloset.splice(5, 1, "stained knit hat")
 //   console.log(kristynsCloset)
 
-  const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
-  thomsCloset[1].pop();
-  thomsCloset[1].push('Footie Pajamas')
-  console.log(`Thom is lookin' S E X Y while wearing his ${thomsCloset[0][1]}, his ${thomsCloset[1][2]}, while also rockin some ${thomsCloset[2][2]}`)
+// thomsCloset[0].pop();
+// thomsCloset[1].push('Footie Pajamas')
+// console.log(`Thom is lookin' S E X Y while wearing his ${thomsCloset[0][1]}, his ${thomsCloset[1][2]}, while also rockin some ${thomsCloset[2][2]}`)
 
-  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FUNCTIONS
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FUNCTIONS
 
-//   printCool = function(name) {
-//     this.name = name;
-//   }
-//   name = prompt("What is your name?")
-//   console.log(`${this.name} is cool!`)
+//// B
 
-//   let calulateCube = (x) => {
+  // printCool = function(name) {
+  //   this.name = name;
+  // }
+  // name = prompt("What is your name?")
+  // console.log(`${this.name} is cool!`)
 
-//     let volume = x * x * x;
+//// C
+
+  // let calulateCube = (x) => {
+
+  //   let volume = x * x * x;
     
-//     console.log(`This cube has a volume of: ${volume}`)
-//   }
-//   calulateCube(5)
+  //   console.log(`This cube has a volume of: ${volume}`)
+  // }
+  // calulateCube(5)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// VOWELS
+
+//// D
 
 // function isVowel(letter) {
 
@@ -230,18 +238,8 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 
 // console.log("e is a vowel?", isVowel("e"))
 
-// E
+//// E
 
-// function getTwoLengths (a,b) {
-//     let array = [];
-
-//     for (i = 0; i < arguments.length; i++) {
-//         array.push(arguments[i].length);
-//     }
-//     return array;
-// }
-
-// //Simplified Version
 // function getTwoLengths(string1, string2){
 //     return [string1.length, string2.length];
 // }
@@ -249,7 +247,7 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 
 // console.log(getTwoLengths("Hank", "Hippopopalous"));
 
-// F
+//// F
 
 // function getMultipleLengths(strings) {
 //     const output = [];
@@ -261,18 +259,37 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 
 // console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
-// G
+//// G
 
-function maxOfThree(value1, value2, value3) {
-  let largestNumber = value1;
+// function maxOfThree(number1, number2, number3) {
+//   let largestNumber = number1;
 
-  if(value2 > largestNumber) {
-    largestNumber = value2;
-  }
-  if(value3 > largestNumber) {
-    largestNumber = value3;
-  }
-  return largestNumber;
-}
+//   if(number2 > largestNumber) {
+//     largestNumber = number2;
+//   }
+//   if(number3 > largestNumber) {
+//     largestNumber = number3;
+//   }
+//   return largestNumber;
+// }
 
-console.log(maxOfThree(6, 9, 1));
+// console.log(maxOfThree(6, 9, 1));
+
+//// H
+
+// function printLongestWord(arr) {
+//   let aWord = "";
+
+//   for (let i = 0; i < arr.length; i++) {
+    
+//     if (aWord.length < arr[i].length) {
+//       aWord = arr[i];
+//     }
+//   }
+
+//   return aWord;
+// }
+
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// OBJECTS
