@@ -38,6 +38,7 @@
 - Change the value of secondVariableto any string.
 
 What is the value of firstVariable?
+
 // - firstVariable is equal to the secondVariable | Which equals 'Hello Hello World'
 
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName.
@@ -204,7 +205,7 @@ Write an `if ... else` statement that:
 
 Write an `if ... else if ... else` statement:
 
-1. console.log()little numberif the number entered is less than 5.
+1. console.log()little number if the number entered is less than 5.
 2. If the number entered is more than 10, log big number.
 3. Otherwise, log "monkey".
 
