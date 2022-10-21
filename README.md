@@ -288,7 +288,7 @@ You think you could? I think so too. Feel free to skip this problem, because you
 
 ### B. printCool
 
-Write a function `printCoolthat` accepts one parameter, `name`, as an argument. The function should print the name and a message saying that that person is cool.
+Write a function `printCool` that accepts one parameter, `name`, as an argument. The function should print the name and a message saying that that person is cool.
 
 `console.log(printCool("Captain Reynolds"));`
 `=> "Captain Reynolds is cool";`
@@ -302,7 +302,7 @@ Write a function calculateCubethat takes a single number and prints the volume o
 
 ## D. isVowel
 
-1. Write a function `isVoweltha`t takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise.
+1. Write a function `isVowelthat' takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise.
 
 2. The vowel could be upper or lower case.
 
@@ -327,7 +327,7 @@ Write a function `getMultipleLengthsthat` accepts a single parameter as an argum
 
 ### G. maxOfThree
 
-Define a function maxOfThreethat takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
+Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
 
 console.log(maxOfThree(6, 9, 1));
 => 9

@@ -158,17 +158,121 @@ quotes = [`Don't get high on your own supply`, `No one owes you anything`, `You 
 
 // H
 
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "GA hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
+
+//   console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`)
+//   kristynsCloset.splice(6, 0, "raybans")
+//   kristynsCloset.splice(5, 1, "stained knit hat")
+//   console.log(kristynsCloset)
+
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
   ];
 
-  console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`)
-  kristynsCloset.splice(6, 0, "raybans")
-  kristynsCloset.splice(5, 1, "stained knit hat")
-  console.log(kristynsCloset)
+  thomsCloset[1].pop();
+  thomsCloset[1].push('Footie Pajamas')
+  console.log(`Thom is lookin' S E X Y while wearing his ${thomsCloset[0][1]}, his ${thomsCloset[1][2]}, while also rockin some ${thomsCloset[2][2]}`)
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FUNCTIONS
+
+//   printCool = function(name) {
+//     this.name = name;
+//   }
+//   name = prompt("What is your name?")
+//   console.log(`${this.name} is cool!`)
+
+//   let calulateCube = (x) => {
+
+//     let volume = x * x * x;
+    
+//     console.log(`This cube has a volume of: ${volume}`)
+//   }
+//   calulateCube(5)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// VOWELS
+
+// function isVowel(letter) {
+
+//     let vowels = ["a", "e", "i", "o", "u"]
+
+// for (let i = 0; i < vowels.length; i++) {
+//     if (letter === vowels[i]) {
+//         return true;
+//     }
+// }
+
+// return false;
+// }
+
+// console.log("e is a vowel?", isVowel("e"))
+
+// E
+
+// function getTwoLengths (a,b) {
+//     let array = [];
+
+//     for (i = 0; i < arguments.length; i++) {
+//         array.push(arguments[i].length);
+//     }
+//     return array;
+// }
+
+// //Simplified Version
+// function getTwoLengths(string1, string2){
+//     return [string1.length, string2.length];
+// }
+
+
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+// F
+
+// function getMultipleLengths(strings) {
+//     const output = [];
+//     for(let string of strings) {
+//         output.push(string.length)
+//     }
+//     return output;
+// }
+
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// G
+
+function maxOfThree(value1, value2, value3) {
+  let largestNumber = value1;
+
+  if(value2 > largestNumber) {
+    largestNumber = value2;
+  }
+  if(value3 > largestNumber) {
+    largestNumber = value3;
+  }
+  return largestNumber;
+}
+
+console.log(maxOfThree(6, 9, 1));
