@@ -404,13 +404,13 @@ When we console.log user, we would see the friend object added to our user objec
 
 ### G. Functions can operate on objects
 
-Write a single function updateUserthat takes no parameters. When the function is run, it should:
+Write a single function updateUser that takes no parameters. When the function is run, it should:
 
 1. it should increment the user's age by 1
 2. make the user's name uppercase
 3. The function does not need a return statement, it will merely modify the user object.
 
-Write a function oldAndLoudthat performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoudfunction with useras the argument.
+Write a function oldAndLoudthat performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoudfunction with user as the argument.
 
 # Requirements Complete! Hungry for More?
 

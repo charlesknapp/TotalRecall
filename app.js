@@ -293,3 +293,55 @@
 // console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// OBJECTS
+
+let user1 = {
+  name: "",
+  email: "",
+  age: 23,
+  purchased: []
+
+}
+
+user1.friend = {
+  name: "Cool Guy",
+  location: "Denver, CO",
+  purchased: [],
+  age: 25
+}
+
+user1.name = "Charles";
+user1.email = "charles@example.com";
+user1.age = ++user1.age;
+
+user1.friend.age = 55;
+
+user1.location = "Denver, CO";
+user1.purchased.push("carbohydrates", "peace of mind", "Merino jodhpurs");
+user1.friend.purchased.push("The One Ring");
+user1.friend.purchased.push("A latte");
+
+console.log(user1);
+console.log(user1.friend.name);
+console.log(user1.friend.location);
+console.log(user1.friend.purchased[1]);
+
+for (let i = 0; i < user1.purchased.length; i++) {
+  console.log(user1.purchased[i])
+}
+
+for (let i = 0; i < user1.friend.purchased.length; i++) {
+  console.log(user1.friend.purchased[i])
+}
+
+function updateUser() {
+  user1.age = ++user1.age;
+  console.log(user1.name.toUpperCase());
+}
+
+function oldAndLoud(person) {
+  person.age = ++person.age;
+  console.log(person.name.toUpperCase());
+}
+
+oldAndLoud(user1);
+updateUser();
